@@ -5,6 +5,9 @@
 
 int main()
 {
+
+
+
     char line[max_file_size];
     FILE *file;
     file = fopen("input.txt","r");
@@ -20,4 +23,7 @@ int main()
     fclose(file);
     return 0;
 
+
+
+    
 }
